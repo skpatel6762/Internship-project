@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <title>Document</title>
+</head>
+<body class="overflow-x-hidden bg-color-primary">
+    <header class="w-full lg:max-w-5xl md:max-w-5xl sm:w-auto">
+        <nav class=" text-black md:text-[17px] py-4 xl:w-full lg:w-auto md:w-full sm:w-auto">
+            <div class="mx-[167px] md:w-auto lg:w-auto flex flex-row items-center justify-between bg-white xl:w-full">
+
+                <img class="" src="images/logo.jpg" alt="">
+            
+                <div class="hidden ml-[131px] w-[528px] md:block md:w-auto">
+                <ul class="hidden md:flex flex-row  items-center justify-center gap-[37px]">
+                    <li class="text-green-500">
+                        <a class="flex items-center px-1 p-2" href="#">Home
+                        </a>
+                    </li>
+                    <li class="text-black hover:text-green-500">
+                        <a class="flex items-center px-1 p-2" href="#">About
+                            <svg class="w-4 h-4 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="text-black hover:text-green-500">
+                        <a class="flex items-center px-1 p-2" href="#">Company
+                            <svg class="w-4 h-4 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="text-black hover:text-green-500">
+                        <a class="flex items-center px-1 p-2" href="#">Pages
+                            <svg class="w-4 h-4 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="text-black hover:text-green-500">
+                        <a class="flex items-center px-1 p-2" href="#">Blog
+                            <svg class="w-4 h-4 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="text-black hover:text-green-500">
+                        <a class="flex items-center px-1 p-2" href="#">Shop
+                            <svg class="w-4 h-4 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+                <div class="bg-color-primary ml-[158px] rounded-md cursor-pointer">
+                <a class="flex md:w-32 sm:w-32 items-center p-2"> Get Started
+                    <svg class="w-6 h-6 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                    </svg>
+                </a>
+                </div>
+                <!-- mobile screen -->
+                <div id="hamburger" class="ml-28 pr-8 cursor-pointer">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul id="mobile-nav" class="flex flex-col justify-start gap-5 
+                h-screen absolute top-0 left-0 bg-white p-10 items-start 
+                -translate-x-full transition-all">
+                    <li class="text-green-500">
+                        <a class="flex items-center px-1 p-2" href="#">Home
+                        </a>
+                    </li>
+                    <li class="text-black hover:text-green-500">
+                        <a class="flex items-center px-1 p-2" href="#">About
+                            <svg class="w-4 h-4 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="text-black hover:text-green-500">
+                        <a class="flex items-center px-1 p-2" href="#">Company
+                            <svg class="w-4 h-4 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="text-black hover:text-green-500">
+                        <a class="flex items-center px-1 p-2" href="#">Pages
+                            <svg class="w-4 h-4 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="text-black hover:text-green-500">
+                        <a class="flex items-center px-1 p-2" href="#">Blog
+                            <svg class="w-4 h-4 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="text-black hover:text-green-500">
+                        <a class="flex items-center px-1 p-2" href="#">Shop
+                            <svg class="w-4 h-4 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="bg-color-primary ">
+        <div class="container flex flex-row items-center justify-between h-[532px] md:block md:w-auto">
+            <div class="ml-32 py-20 p-3">
+                <h3 class="font-roboto bg-color-button px-3 p-1 rounded-full w-[204px] h-8 text-white ">Digital Marketing Agency</h3>
+                <h1 class="w-[636px] h-[124px] md:text-6xl mt-6 text-black lg:text-6xl text-bold">Advanced analytics to grow your business</h1>
+                <p class="mt-8 w-[636px] h-8 font-roboto text-font-color ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <div class="flex gap-[71px] mt-8">
+                    <button class="flex items-center h-[16px] px-5 py-6 bg-black text-white rounded-md bg-bl"> Get Started
+                        <svg class="w-6 h-6 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                        </svg>
+                    </button>
+                    <button class="flex items-center h-[16px] px-5 py-6 bg-color-primary border-2 border-color-button text-black rounded-md"> How It Works
+                        <svg class="w-6 h-6 mt-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="parent flex ">
+                <div class="relative top-0 left-0 h-[394px] w-[315px] border-2 border-color-button rounded-[37px] mt-[98px] mb-[40px]"></div>
+                <div class="">
+                    <img src="images/Rectangle 6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        const hamburger = document.getElementById('hamburger')
+        const mobilenav = document.getElementById('mobile-nav')
+        hamburger.addEventListener('click', () => {
+            mobilenav.classList.toggle('-translate-x-full')
+
+        })
+    </script>   
+</body>
+</html>
